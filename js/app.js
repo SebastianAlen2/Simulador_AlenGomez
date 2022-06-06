@@ -6,9 +6,9 @@ let base = 2000;
 
 function año(){
     if((2022 - añoAuto) >= 20){
-        total = cantidad * 2
+        total = cantidad * 1.5
     }else if ((2022 - añoAuto) < 20){
-        total = cantidad +10
+        total = cantidad *2
     }
 }
 
