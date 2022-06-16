@@ -4,11 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cotizador</title>
 </head>
 <body>
 
-    <h1>Desafio entregable N°1</h1>
+    <h1>Cotizador de seguros</h1>
+
+    <div class="">
+        <div  class="">
+
+              <header class="">
+                  <h1 class="">Cotiza tu seguro de Auto</h1>
+              </header>
+
+                  <form class="" >
+                          <div class="">
+                              <label 
+                                class=""
+                                for="marca"
+                              >Marca:</label>
+                              <select class="" id="marca">
+                                  <option value="">- Seleccionar -</option>
+                                  <option value="1">Americano</option>
+                                  <option value="2">Asiatico</option>
+                                  <option value="3">Europeo</option>
+                              </select>
+                          </div>
+
+                          <div class="">
+                                <label 
+                                  class=""
+                                  for="año"
+                                >Año:</label>
+                                <select  class="" id="año">
+                                    <option value="">- Seleccionar -</option>
+                                    <option value="1">2000</option>
+                                    <option value="2">2001</option>
+                                    <option value="3">2002</option>
+                                </select>
+                          </div>
+
+                          <fieldset>
+
+                                <legend  class="">Tipo Seguro</legend>
+  
+                                <div class="">
+                                    <div>
+                                        <label class="">Básico</label>
+                                            <input type="radio" name="tipo" value="basico" checked>
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <label class="">Completo</label>
+                                            <input type="radio" name="tipo" value="completo">
+                                        </label>
+                                    </div>
+                                </div>
+                        </fieldset>
+  
+                    
+                    
+                    <div class="">
+                        <button 
+                          type="submit" 
+                          class=""
+                          >Cotizar Seguro
+                      </button>
+                    </div>
+   
+                  </form> 
+        </div> 
+  </div>
+  
 
     <script src="js/app.js"></script>
 </body>
